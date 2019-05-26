@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React, { useState } from 'react'
 
-import { GiHouse, GiBookshelf, GiClawHammer } from 'react-icons/gi'
+import { GiHouse, GiNewspaper, GiClawHammer } from 'react-icons/gi'
 import { FaBars } from 'react-icons/fa'
 import { FaTimes } from 'react-icons/fa'
 
@@ -13,7 +13,11 @@ const Header = ({ siteTitle }) => {
     <header>
       <div className="desktop-hide">
         <button className="bars" onClick={() => setToggle(!toggle)}>
-          {toggle ? <FaTimes className="gold" /> : <FaBars className="green" />}
+          {toggle ? (
+            <FaTimes className="secondary" />
+          ) : (
+            <FaBars className="primary" />
+          )}
         </button>
       </div>
       <nav className={navHide}>
@@ -24,19 +28,19 @@ const Header = ({ siteTitle }) => {
         </div>
         <div className={mobile}>
           <Link to="/" className="nav-link desktop-hide">
-            <span class="gold-header">
+            <span className="secondary-header">
               <GiHouse />
             </span>
             Home
           </Link>
           <Link to="/articles" className="nav-link">
-            <span class="gold-header">
-              <GiBookshelf />
+            <span className="secondary-header">
+              <GiNewspaper />
             </span>
             Articles
           </Link>
           <Link to="/projects" className="nav-link">
-            <span class="gold-header">
+            <span className="secondary-header">
               <GiClawHammer />
             </span>
             Projects

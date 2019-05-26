@@ -6,7 +6,7 @@ const Welcome = ({ data }) => {
   return (
     <section className="welcome">
       <div className="welcome-left">
-        <h1>{title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: title }} />
         <h2>{subtitle}</h2>
       </div>
       <FrontImage />

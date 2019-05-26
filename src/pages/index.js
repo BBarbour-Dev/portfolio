@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import SubNav from '../components/sub-nav'
 import Welcome from '../components/welcome'
 import LatestArticles from '../components/latest'
+import Tech from '../components/tech'
 
 const IndexPage = ({ data }) => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => {
       <SubNav />
       <Welcome data={data.info} />
       <LatestArticles />
+      <Tech data={data.info.tech} />
     </Layout>
   )
 }
@@ -28,6 +30,18 @@ export const query = graphql`
       subtitle
       contact {
         email
+      }
+      tech {
+        js
+        html
+        css
+        react
+        firebase
+        node
+        git
+        apple
+        linux
+        windows
       }
     }
   }

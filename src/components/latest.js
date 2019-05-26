@@ -1,6 +1,5 @@
 import React from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
-import { GiNewspaper } from 'react-icons/gi'
 
 import FeedArticle from './feed-article'
 
@@ -29,27 +28,21 @@ const LatestArticles = () => {
     }
   `)
   const latestArticles = data.allMarkdownRemark.edges
-  console.log(latestArticles[0].node.frontmatter.title)
   return (
     <section id="latest" className="section">
-      <h1>
-        <span className="gold-icon">
-          <GiNewspaper />
-        </span>
-        Latest
-      </h1>
+      <h1>Latest</h1>
       <div className="article-feed">
         {latestArticles ? (
           latestArticles.map((article, index) => {
             const { node } = article
-            return <FeedArticle node={node} />
+            return <FeedArticle node={node} key={index} />
           })
         ) : (
           <p>No articles to display.</p>
         )}
       </div>
-      <div class="more">
-        <Link to="/articles">View More</Link>
+      <div className="more">
+        <Link to="/articles">...More Articles</Link>
       </div>
     </section>
   )
