@@ -1,42 +1,49 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import React, { useState } from 'react'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+import { GiHouse, GiBookshelf, GiClawHammer } from 'react-icons/gi'
+import { FaBars } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+const Header = ({ siteTitle }) => {
+  const [toggle, setToggle] = useState(false)
+  const mobile = toggle ? '' : 'mobile-hide'
+  const navHide = toggle ? 'nav-view' : 'nav-hide'
+  return (
+    <header>
+      <div className="desktop-hide">
+        <button className="bars" onClick={() => setToggle(!toggle)}>
+          {toggle ? <FaTimes className="gold" /> : <FaBars className="green" />}
+        </button>
+      </div>
+      <nav className={navHide}>
+        <div className="mobile-hide">
+          <Link to="/" className="nav-link" style={{ flexBasis: '80%' }}>
+            {siteTitle}
+          </Link>
+        </div>
+        <div className={mobile}>
+          <Link to="/" className="nav-link desktop-hide">
+            <span class="gold-header">
+              <GiHouse />
+            </span>
+            Home
+          </Link>
+          <Link to="/articles" className="nav-link">
+            <span class="gold-header">
+              <GiBookshelf />
+            </span>
+            Articles
+          </Link>
+          <Link to="/projects" className="nav-link">
+            <span class="gold-header">
+              <GiClawHammer />
+            </span>
+            Projects
+          </Link>
+        </div>
+      </nav>
+    </header>
+  )
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header
