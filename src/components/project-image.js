@@ -24,7 +24,7 @@ const ProjectImage = ({ path, alt }) => {
   })
   const { fluid } = image[0].node.childImageSharp
   return (
-    <figure class="project-image">
+    <figure className="project-image">
       <Img fluid={fluid} alt={alt} st />
     </figure>
   )

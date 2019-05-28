@@ -12,6 +12,7 @@ const Showcase = ({ projects }) => {
           if (project.type === 'major') {
             return <ProjectCard project={project} key={index} />
           }
+          return null
         })}
       </div>
       <div className="more">

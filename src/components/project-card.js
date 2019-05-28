@@ -10,12 +10,12 @@ const ProjectCard = ({ project, all }) => {
     <div className={`project-card ${allProjects}`}>
       <ProjectImage path={project.image} alt={project.title} />
       <h2>{project.name}</h2>
-      <p class="project-description">{project.description}</p>
+      <p className="project-description">{project.description}</p>
       <div className="project-link-row">
-        <div class="project-link">
+        <div className="project-link">
           <FaVideo /> <span>Live:</span> <a href={project.live}>Click Here</a>
         </div>
-        <div class="project-link">
+        <div className="project-link">
           <FaGithub /> <span>Github:</span>{' '}
           <a href={project.github}>Click Here</a>
         </div>
