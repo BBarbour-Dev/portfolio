@@ -4,19 +4,17 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-import SubNav from '../components/sub-nav'
 import Welcome from '../components/welcome'
 import LatestArticles from '../components/latest'
-import Tech from '../components/tech'
+import Showcase from '../components/showcase'
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <SubNav />
-      <Welcome data={data.info} />
+      <Welcome title={data.info.title} subtitle={data.info.subtitle} />
       <LatestArticles />
-      <Tech data={data.info.tech} />
+      <Showcase projects={data.info.projects} />
     </Layout>
   )
 }
@@ -24,24 +22,17 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   {
     info {
-      firstName
-      lastName
       title
       subtitle
-      contact {
-        email
-      }
-      tech {
-        js
-        html
-        css
-        react
-        firebase
-        node
-        git
-        apple
-        linux
-        windows
+      projects {
+        name
+        description
+        image
+        type
+        date
+        favorite
+        github
+        live
       }
     }
   }

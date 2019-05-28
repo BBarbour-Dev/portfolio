@@ -1,12 +1,15 @@
 import React from 'react'
 
+import Contact from '../components/contact'
+
 const Footer = () => {
   return (
     <footer>
       <p>
-        Made with love using GatsbyJs. <strong>&copy;</strong>{' '}
+        Site made with love and GatsbyJs. <strong>&copy;</strong>{' '}
         {new Date().getFullYear()}
       </p>
+      <Contact />
     </footer>
   )
 }

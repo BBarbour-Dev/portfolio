@@ -8,7 +8,7 @@ const FeedArticle = ({ node }) => {
       <Link to={fields.slug}>
         <h2 className="article-preview-link">{frontmatter.title}</h2>
       </Link>
-      <p className="article-preview-date">
+      <p className="article-date">
         {frontmatter.date} <span className="big-dot">{' • '}</span>
         {timeToRead} min read
       </p>

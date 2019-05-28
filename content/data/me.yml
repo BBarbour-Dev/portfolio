@@ -1,21 +1,13 @@
-firstName: Brian
-lastName: Barbour
-title: <h1>Hello, <br /> I'm Brian</h1>
-subtitle: A self-taught developer who loves building swift and responsive modern web apps.
-contact:
-  email: brian@bbarbour.dev
-tech:
-  js: >
-    Started JavaScript with Codecademy's web development path. Moved onto freeCodeCamp's ciriculum where I received my JavaScript Algorithms and Datastructure's certification.
-  html: >
-    First touched HTML as a teenager, tinkering around on the early days of the web. Upgraded my skills and mastered HTML5 and Semantic HTML in both Codecademy's web development path and through freeCodeCamp's Reponsive Web Design certification.
-  css: >
-    Learned CSS shortly after delving into HTML as teenager. However, I recently leveled up my skills with Codecademy's web develoment path, freeCodeCamp's Responsive Web Design certification and Jonas Schmedtman's Advanced CSS and Sass: Flex, Grid, and More course on Udemy.
-  react: >
-    During Codecademy's web development I was marveled by the ability to create lightning fast single page apps with React. Afterward, I bought Brad Traverys's React Front To Back course on Udemy, and quickly delved into my own projects shorly after. This very site was built using React and Gatsby, as well as all the projects I completed for freeCdoeCamp's Front End Libraries certification.
-  firebase: >
-    Read Robin Wieruch's book The Road to React With Firebase and afterward created my first major project, The Black Hack: Beyond using Firebase as my backend.
-  node: >
-    Node was one of the first technologies I touched while learning JavaScript. I delved into Node and Express in Codecademy's web development path and also on my own, taking a couple crash courses on YouTube. I practiced what I learned by creating a Discord bot as one of my projects.
-  git: >
-    I use Git and Github everday as I code, tracking my changes and pushing my code up. I see what an invaluable tool it can be for teams developing software. Also, Codecademy had a wonderful introduction into Git that helped me understand the basics.
+title: "<h1>Hello, <br /> I'm Brian</h1>"
+subtitle: 'A self-taught Front End Developer who loves building swift and responsive modern web apps.'
+projects:
+  - {
+      name: 'Test Project',
+      description: 'This is just a test project',
+      image: 'documentationpage.png',
+      type: 'major',
+      date: 2015-05-01,
+      favorite: true,
+      github: 'https://github.com/steelvoltage/free_code_camp_responsive/tree/master/documentationpage',
+      live: 'https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/',
+    }

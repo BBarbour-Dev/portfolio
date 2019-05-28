@@ -6,7 +6,8 @@ orignalURL: https://dev.to/steelvoltage/codecademy-freecodecamp-beginner-impress
 description: My thoughts about Web Development path at Codecademy and the Javascript Algorithms and Datastructures certification at freeCodeCamp.
 ---
 
-#My Story
+## My Story
+
 For most of my career I have worked in the IT industry. I pulled my way up from a call center help desk to being field technician (still am one as of writing this.) I solve the woes of your everyday office worker, fixing hardware, troubleshooting networks, and ninety percent of the time just telling them to turn it off and back on again.
 
 I don't have a CS degree. I often joke, even in interviews, that my CS degree has been almost ten years of me scratching my head at computers and then googling why they do the things they do. I'm a bit of a self starter, a curious mind, and I have delved into all sorts of things.
@@ -21,7 +22,7 @@ Thus began my quest to learn how to code. Javascript was my target language. I h
 
 Two resources stood out to me immediately. Codecademy and freeCodeCamp. I delved into them both. This is my story.
 
-#Codecademy
+## Codecademy
 
 Codecademy first.
 
@@ -39,7 +40,7 @@ But, despite getting my feet wet, I was shaky. I still lacked the gusto to charg
 
 Codecademy was great for an overview. It was invaluable to teach me what the different aspects of web development were. Most of all, it had put me in the skinner box of completing modules and made me hungry for more.
 
-#freeCodeCamp
+## freeCodeCamp
 
 Enter freeCodeCamp.
 
@@ -53,7 +54,7 @@ I believe I learned how to think like a dev there.
 
 Two months later, I got my [certification](https://www.freecodecamp.org/certification/steelvoltage/javascript-algorithms-and-data-structures).
 
-#Path Forward
+## Path Forward
 
 These two sites were invaluable tools and teachers. I would recommend them to anyone learning code for the first time. I find myself referencing things I did there quite often.
 

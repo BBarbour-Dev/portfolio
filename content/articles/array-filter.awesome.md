@@ -1,5 +1,5 @@
 ---
-title: "Codecademy & freeCodeCamp: Beginner's Journey "
+title: 'Array.filter() Is Awesome'
 date: 2019-04-22
 type: article
 orignalURL: https://dev.to/steelvoltage/array-filter-is-awesome-2k7

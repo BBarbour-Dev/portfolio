@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React, { useState } from 'react'
 
-import { GiHouse, GiNewspaper, GiClawHammer } from 'react-icons/gi'
+import { GiHouse, GiBookshelf, GiCog } from 'react-icons/gi'
 import { FaBars } from 'react-icons/fa'
 import { FaTimes } from 'react-icons/fa'
 
@@ -35,13 +35,13 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link to="/articles" className="nav-link">
             <span className="secondary-header">
-              <GiNewspaper />
+              <GiBookshelf />
             </span>
             Articles
           </Link>
           <Link to="/projects" className="nav-link">
             <span className="secondary-header">
-              <GiClawHammer />
+              <GiCog />
             </span>
             Projects
           </Link>
