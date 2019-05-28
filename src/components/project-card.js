@@ -4,9 +4,10 @@ import { FaVideo, FaGithub } from 'react-icons/fa'
 
 import ProjectImage from '../components/project-image'
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, all }) => {
+  const allProjects = all ? 'all-projects' : ''
   return (
-    <div className="project-card">
+    <div className={`project-card ${allProjects}`}>
       <ProjectImage path={project.image} alt={project.title} />
       <h2>{project.name}</h2>
       <p class="project-description">{project.description}</p>

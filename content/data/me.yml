@@ -2,22 +2,82 @@ title: "<h1>Hello, <br /> I'm Brian</h1>"
 subtitle: 'A self-taught Front End Developer who loves building swift and responsive modern web apps.'
 projects:
   - {
-      name: 'Test Project',
-      description: 'This is just a test project.',
-      image: 'documentationpage.png',
+      name: 'Grocery Getter',
+      description: 'My first ever React app built from scratch. Uses localstorage for CRUD operations and data storage.',
+      image: 'grocerygetter.png',
+      type: 'minor',
+      date: 2015-04-16,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/grocerygetter',
+      live: 'https://steelvoltage.github.io/grocerygetter/',
+    }
+  - {
+      name: 'The Black Hack: Beyond',
+      description: 'A tabletop RPG character sheet site I created using React and Firebase for a backend.',
+      image: 'tbhbeyond.png',
       type: 'major',
       date: 2015-05-01,
       favorite: true,
-      github: 'https://github.com/steelvoltage/free_code_camp_responsive/tree/master/documentationpage',
-      live: 'https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/',
+      github: 'https://github.com/steelvoltage/tbhbeyond',
+      live: 'https://tbhbeyond.com/',
     }
   - {
-      name: 'Test Project 2',
-      description: 'This is just another test project. Making sure this shit works.',
-      image: 'documentationpage.png',
+      name: 'Saga of the Old Gods',
+      description: "A site I built for my sister's webcomic using Gatsby JS and Netlify CMS.",
+      image: 'sotog.png',
       type: 'major',
-      date: 2015-05-20,
+      date: 2015-05-12,
       favorite: true,
-      github: 'https://github.com/steelvoltage/free_code_camp_responsive/tree/master/documentationpage',
-      live: 'https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/',
+      github: 'https://github.com/steelvoltage/sotog',
+      live: 'https://sagaoftheoldgods.com',
+    }
+  - {
+      name: 'Dad Joke Machine',
+      description: 'Fetches jokes from the Dad Joke API, displays them, and lets you tweet them out. Built for the freeCodeCamp Front End Libraries certification.',
+      image: 'dadjokemachine.png',
+      type: 'minor',
+      date: 2015-05-21,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/dad-joke-machine',
+      live: 'https://steelvoltage.github.io/dad-joke-machine/',
+    }
+  - {
+      name: 'Markdown Previewer',
+      description: 'Parses over user inputed Markdown flavored text and displays a preview of it. Built for the freeCodeCamp Front End Libraries certification.',
+      image: 'markdownpreviewer.png',
+      type: 'minor',
+      date: 2015-05-22,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/markdown-previewer',
+      live: 'https://steelvoltage.github.io/markdown-previewer/',
+    }
+  - {
+      name: 'Drum Machine',
+      description: 'Lets you play drums using your keyboard our mouse clicks. Built for the freeCodeCamp Front End Libaries certification.',
+      image: 'drum-machine.png',
+      type: 'minor',
+      date: 2015-05-23,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/drum-machine',
+      live: 'https://steelvoltage.github.io/drum-machine/',
+    }
+  - {
+      name: 'JS Calculator',
+      description: 'A very basic calcuator that uses Javascript. Built for the freeCodeCamp Front End Libaries certification',
+      image: 'calculator.png',
+      type: 'minor',
+      date: 2015-05-24,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/js-calculator',
+      live: 'https://steelvoltage.github.io/js-calculator/',
+    }
+  - {
+      name: 'Pomodoro Clock',
+      description: 'A Pomodoro timer clock built to help you pace your work and breaks. Built for the freeCodeCamp Front End Libaries certification',
+      image: 'pomodoro.png',
+      type: 'major',
+      date: 2015-05-25,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/pomodoro-clock',
+      live: 'https://steelvoltage.github.io/pomodoro-clock/',
     }
