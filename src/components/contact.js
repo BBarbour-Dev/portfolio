@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
       </div>
       <figure className="avatar">
-        <Img fluid={fluid} />
+        <Img fluid={fluid} alt="Real Brian" />
       </figure>
     </div>
   )

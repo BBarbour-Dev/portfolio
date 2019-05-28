@@ -288,10 +288,6 @@ header .nav-link:hover .secondary-header {
   font-size: 5rem;
 }
 
-.tech-row svg:hover {
-  color: var(--secondary);
-}
-
 .article-wrapper {
   margin: 2rem auto 0 auto;
   width: 50%;

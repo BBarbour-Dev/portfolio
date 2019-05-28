@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import { FaVideo, FaGithub } from 'react-icons/fa'
 
@@ -8,16 +9,17 @@ const ProjectCard = ({ project, all }) => {
   const allProjects = all ? 'all-projects' : ''
   return (
     <div className={`project-card ${allProjects}`}>
-      <ProjectImage path={project.image} alt={project.title} />
-      <h2>{project.name}</h2>
+      <ProjectImage path={project.image} alt={project.name} />
+      <Link to={project.live}>
+        <h2>{project.name}</h2>
+      </Link>
       <p className="project-description">{project.description}</p>
       <div className="project-link-row">
         <div className="project-link">
-          <FaVideo /> <span>Live:</span> <a href={project.live}>Click Here</a>
+          <FaVideo /> <a href={project.live}>Live Website</a>
         </div>
         <div className="project-link">
-          <FaGithub /> <span>Github:</span>{' '}
-          <a href={project.github}>Click Here</a>
+          <FaGithub /> <a href={project.github}>Github Repo</a>
         </div>
       </div>
     </div>

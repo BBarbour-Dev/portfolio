@@ -18,7 +18,7 @@ const FrontImage = () => {
   return (
     <div className="welcome-right">
       <div className="my-image">
-        <Img fluid={fluid} />
+        <Img fluid={fluid} alt="Cartoon Brian" />
       </div>
     </div>
   )
