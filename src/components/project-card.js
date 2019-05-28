@@ -9,7 +9,7 @@ const ProjectCard = ({ project, all }) => {
   return (
     <div className={`project-card ${allProjects}`}>
       <ProjectImage path={project.image} alt={project.name} />
-      <a href={project.live}>
+      <a href={project.live} target="_blank" rel="noopener">
         <h2>{project.name}</h2>
       </a>
       <p className="project-description">{project.description}</p>
