@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-const ProjectImage = ({ path }) => {
+const ProjectImage = ({ path, alt }) => {
   const data = useStaticQuery(graphql`
     {
       allFile {
@@ -22,12 +22,11 @@ const ProjectImage = ({ path }) => {
   const image = data.allFile.edges.filter(edge => {
     return edge.node.relativePath === path
   })
-  console.log(image)
   const { fluid } = image[0].node.childImageSharp
   return (
-    <div>
-      <Img fluid={fluid} />
-    </div>
+    <figure class="project-image">
+      <Img fluid={fluid} alt={alt} st />
+    </figure>
   )
 }
 

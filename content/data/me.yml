@@ -3,10 +3,20 @@ subtitle: 'A self-taught Front End Developer who loves building swift and respon
 projects:
   - {
       name: 'Test Project',
-      description: 'This is just a test project',
+      description: 'This is just a test project.',
       image: 'documentationpage.png',
       type: 'major',
       date: 2015-05-01,
+      favorite: true,
+      github: 'https://github.com/steelvoltage/free_code_camp_responsive/tree/master/documentationpage',
+      live: 'https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/',
+    }
+  - {
+      name: 'Test Project 2',
+      description: 'This is just another test project. Making sure this shit works.',
+      image: 'documentationpage.png',
+      type: 'major',
+      date: 2015-05-20,
       favorite: true,
       github: 'https://github.com/steelvoltage/free_code_camp_responsive/tree/master/documentationpage',
       live: 'https://steelvoltage.github.io/free_code_camp_responsive/documentationpage/',

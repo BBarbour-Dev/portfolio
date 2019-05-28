@@ -29,7 +29,10 @@ const LatestArticles = () => {
   `)
   const latestArticles = data.allMarkdownRemark.edges
   return (
-    <section className="section">
+    <section
+      className="section"
+      style={{ borderBottom: '1px solid var(--dull)' }}
+    >
       <h1>Latest Articles</h1>
       <div className="article-feed">
         {latestArticles ? (
