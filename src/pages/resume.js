@@ -11,6 +11,7 @@ const ResumePage = () => {
         <section className="section">
           <h1>Resume</h1>
           <iframe
+            title="Resume"
             src="https://drive.google.com/file/d/1HwarQMbQI1TEfxcrPOPQfwBNvtrJnsJw/preview"
             width="100%"
             height="1065px"

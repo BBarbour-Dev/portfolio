@@ -63,5 +63,3 @@ Let me show you where it's at right now and also what I've checked off from it:
 After I complete this set of objectives, I'm going to start hunting for a job. This may change, I may add or subtract. We'll see.
 
 Until then, I'm going to focus on putting one foot in front of me. Not to say I would turn down an opportunity if it fell into my lap. This is just before I personally begin to hunt and focus on that.
-
-What about everyone else who is self-taught? Or, even those of you in the industry right now. What are your short and long term goals? Did you build yourself a curriculum? I'm interested to hear what works and what doesn't for the rest of you.
