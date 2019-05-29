@@ -31,16 +31,32 @@ const Contact = () => {
           <a href="mailto:steelvoltage@gmail.com">
             <FaEnvelope />
           </a>
-          <a href="https://github.com/steelvoltage">
+          <a
+            href="https://github.com/steelvoltage"
+            target="_blank"
+            rel="noopener"
+          >
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/brian-barbour-971864186/">
+          <a
+            href="https://www.linkedin.com/in/brian-barbour-971864186/"
+            target="_blank"
+            rel="noopener"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://www.facebook.com/brian.barbour.31">
+          <a
+            href="https://www.facebook.com/brian.barbour.31"
+            target="_blank"
+            rel="noopener"
+          >
             <FaFacebook />
           </a>
-          <a href="https://twitter.com/steelvoltage">
+          <a
+            href="https://twitter.com/steelvoltage"
+            target="_blank"
+            rel="noopener"
+          >
             <FaTwitter />
           </a>
         </div>

@@ -15,10 +15,16 @@ const ProjectCard = ({ project, all }) => {
       <p className="project-description">{project.description}</p>
       <div className="project-link-row">
         <div className="project-link">
-          <FaVideo /> <a href={project.live}>Live Website</a>
+          <FaVideo />{' '}
+          <a href={project.live} target="_blank" rel="noopener">
+            Live Website
+          </a>
         </div>
         <div className="project-link">
-          <FaGithub /> <a href={project.github}>Github Repo</a>
+          <FaGithub />{' '}
+          <a href={project.github} target="_blank" rel="noopener">
+            Github Repo
+          </a>
         </div>
       </div>
     </div>
