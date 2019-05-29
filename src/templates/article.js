@@ -16,7 +16,7 @@ const Article = ({ data, location }) => {
       </div>
       <div className="article-wrapper">
         <h1 className="article-h1">{frontmatter.title}</h1>
-        <p className="article-date">
+        <p className="article-date" style={{ marginBottom: '2rem' }}>
           {frontmatter.date} <span className="big-dot">{' • '}</span>
           {timeToRead} min read
         </p>

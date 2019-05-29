@@ -343,7 +343,6 @@ a:hover {
 .article-date {
   font-size: 1.6rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
 }
 
 .article-wrapper {
@@ -375,7 +374,6 @@ a:hover {
 }
 
 .content {
-  padding: 2rem;
   font-size: 1.8rem;
   line-height: 2;
 }
