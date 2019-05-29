@@ -506,6 +506,7 @@ a:hover {
     width: 100%;
     padding: none;
     -webkit-backface-visibility: hidden;
+    margin: 0 auto;
   }
  
   .article-wrapper {
