@@ -50,9 +50,9 @@ Let me show you where it's at right now and also what I've checked off from it:
 - ~~Learn Gatsby JS from documentation and build a static React site, programatically. Incorporate a CMS into it.~~ [sagaoftheoldgods.com](https://sagaoftheoldgods.com)
 - ~~Finish freeCodeCamp's Responsive Web Design course and certification.~~ [My Cert](https://www.freecodecamp.org/certification/steelvoltage/responsive-web-design)
 - ~~Finish freeCodeCamp's Front End Libraries course certification.~~ [My Cert](https://www.freecodecamp.org/certification/steelvoltage/front-end-libraries)
-- Finish Jonas Schmedtmann's Advanced CSS and Sass: Flexbox, Grid, Animations course. _In Progress_.
-- Build my personal portfolio site.
-- Build my dev related resume. (Which is a complete rewrite for me.)
+- ~~Finish Jonas Schmedtmann's Advanced CSS and Sass: Flexbox, Grid, Animations course.~~
+- ~~Build my personal portfolio site.~~ [https://bbarbour.dev] (https://bbarbour.dev)
+- ~~Build my dev related resume.~~
 - Do Brad Traversy's MERN Stack Front to Back course.
 - Find and complete a GraphQL course.
 - Find a real client, willing to pay me, and make them a site.
