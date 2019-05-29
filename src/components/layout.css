@@ -510,6 +510,10 @@ a:hover {
     margin: 0 auto;
   }
 
+  .my-image {
+    animation: none;
+  }
+
   .article-wrapper {
     width: 100%;
   }
