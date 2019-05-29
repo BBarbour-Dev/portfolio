@@ -8,9 +8,9 @@ import { FaTimes } from 'react-icons/fa'
 const Header = ({ siteTitle }) => {
   const [toggle, setToggle] = useState(false)
   const mobile = toggle ? '' : 'mobile-hide'
-  const navHide = toggle ? 'nav-view' : 'nav-hide'
+  const navHide = toggle ? 'nav nav-view' : 'nav nav-hide'
   return (
-    <header>
+    <header className="header">
       <div className="desktop-hide">
         <button className="bars" onClick={() => setToggle(!toggle)}>
           {toggle ? (

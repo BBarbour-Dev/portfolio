@@ -11,7 +11,7 @@ const Article = ({ data, location }) => {
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <div className="more">
+      <div className="back">
         <Link to="/articles">← Back to Articles</Link>
       </div>
       <div className="article-wrapper">

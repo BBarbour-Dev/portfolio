@@ -34,28 +34,28 @@ const Contact = () => {
           <a
             href="https://github.com/steelvoltage"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/brian-barbour-971864186/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
           <a
             href="https://www.facebook.com/brian.barbour.31"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FaFacebook />
           </a>
           <a
             href="https://twitter.com/steelvoltage"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FaTwitter />
           </a>

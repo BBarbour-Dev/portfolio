@@ -4,7 +4,7 @@ import Contact from '../components/contact'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p>
         Site made with love and GatsbyJs. <strong>&copy;</strong>{' '}
         {new Date().getFullYear()}
