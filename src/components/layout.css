@@ -33,7 +33,7 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -47,6 +47,7 @@ body {
   font-family: var(--primary-font);
   color: var(--dark);
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 a {
@@ -462,7 +463,8 @@ a:hover {
   }
 
   .container {
-    max-width: 95%;
+    max-width: 100%;
+    padding: 1rem;
     min-height: 100vh;
     padding-bottom: 30vh;
   }
