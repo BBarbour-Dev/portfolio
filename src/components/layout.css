@@ -494,6 +494,7 @@ a:hover {
   .welcome {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     border-bottom: 1px solid var(--dull);
     text-align: center;
