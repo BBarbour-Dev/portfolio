@@ -228,7 +228,7 @@ a:hover {
   display: flex;
   margin-top: 2rem;
   justify-content: space-around;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   font-size: 5rem;
 }
 
@@ -451,7 +451,7 @@ a:hover {
   margin: 2rem auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .header .nav {
     padding: 0 0 1rem 0;
   }
@@ -505,11 +505,12 @@ a:hover {
   }
 
   .welcome-right {
-    flex-basis: 100%;
+    display: block;
+    width: 100%;
     padding: none;
     -webkit-backface-visibility: hidden;
   }
-
+ 
   .article-wrapper {
     width: 100%;
   }
@@ -530,6 +531,7 @@ a:hover {
   .avatar {
     width: 40%;
   }
+  
   .contact {
     flex-basis: 100%;
   }
