@@ -492,17 +492,13 @@ a:hover {
   }
 
   .welcome {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: block;
     border-bottom: 1px solid var(--dull);
     text-align: center;
   }
 
   .welcome-left {
-    flex-basis: 100%;
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 
   .welcome-right {
