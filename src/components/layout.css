@@ -453,6 +453,7 @@ a:hover {
   color: var(--secondary);
   text-transform: uppercase;
   text-decoration: none;
+  margin-top: 1rem;
 }
 
 .project-btn:hover {
