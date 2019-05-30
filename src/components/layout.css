@@ -426,7 +426,6 @@ a:hover {
   color: var(--primary);
   text-transform: uppercase;
   font-weight: 700;
-  align-items: stretch;
 }
 
 .project-description {
@@ -439,25 +438,26 @@ a:hover {
 }
 
 .project-link-row {
-  margin: auto 1rem 1rem 1rem;
+  margin: auto 0 1rem 1rem;
   padding-top: 1rem;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .project-btn {
   font-size: 1.5rem;
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--primary);
   padding: 0.5rem;
-  color: var(--secondary);
+  color: var(--primary);
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 1rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .project-btn:hover {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--light);
 }
 

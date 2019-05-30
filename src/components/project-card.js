@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaVideo, FaGithub } from 'react-icons/fa'
+import { FaDesktop, FaGithub } from 'react-icons/fa'
 
 import ProjectImage from '../components/project-image'
 
@@ -18,7 +18,7 @@ const ProjectCard = ({ project, all }) => {
           rel="noopener noreferrer"
           className="project-btn"
         >
-          Website <FaVideo style={{ position: 'relative', top: '2px' }} />
+          Website <FaDesktop style={{ position: 'relative', top: '2px' }} />
         </a>
 
         <a
