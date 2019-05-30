@@ -45,12 +45,17 @@ const Header = ({ siteTitle }) => {
             </span>
             Projects
           </Link>
-          <Link to="/resume" className="nav-link">
+          <a
+            href="https://drive.google.com/file/d/1HwarQMbQI1TEfxcrPOPQfwBNvtrJnsJw/view"
+            className="nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="secondary-header">
               <GiScrollUnfurled />
             </span>
             Resume
-          </Link>
+          </a>
         </div>
       </nav>
     </header>
