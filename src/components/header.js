@@ -29,19 +29,19 @@ const Header = ({ siteTitle }) => {
         <div className={mobile}>
           <Link to="/" className="nav-link desktop-hide">
             <span className="secondary-header">
-              <GiHouse />
+              <GiHouse style={{ position: 'relative', top: '3px' }} />
             </span>
             Home
           </Link>
           <Link to="/articles" className="nav-link">
             <span className="secondary-header">
-              <GiBookshelf />
+              <GiBookshelf style={{ position: 'relative', top: '3px' }} />
             </span>
             Articles
           </Link>
           <Link to="/projects" className="nav-link">
             <span className="secondary-header">
-              <GiCog />
+              <GiCog style={{ position: 'relative', top: '3px' }} />
             </span>
             Projects
           </Link>
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => {
             rel="noopener noreferrer"
           >
             <span className="secondary-header">
-              <GiScrollUnfurled />
+              <GiScrollUnfurled style={{ position: 'relative', top: '3px' }} />
             </span>
             Resume
           </a>

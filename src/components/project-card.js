@@ -9,23 +9,26 @@ const ProjectCard = ({ project, all }) => {
   return (
     <div className={`project-card ${allProjects}`}>
       <ProjectImage path={project.image} alt={project.name} />
-      <a href={project.live} target="_blank" rel="noopener noreferrer">
-        <h2>{project.name}</h2>
-      </a>
+      <h2>{project.name}</h2>
       <p className="project-description">{project.description}</p>
       <div className="project-link-row">
-        <div className="project-link">
-          <FaVideo />{' '}
-          <a href={project.live} target="_blank" rel="noopener noreferrer">
-            Live Website
-          </a>
-        </div>
-        <div className="project-link">
-          <FaGithub />{' '}
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            Github Repo
-          </a>
-        </div>
+        <a
+          href={project.live}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-btn"
+        >
+          Website <FaVideo style={{ position: 'relative', top: '2px' }} />
+        </a>
+
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-btn"
+        >
+          Github <FaGithub style={{ position: 'relative', top: '2px' }} />
+        </a>
       </div>
     </div>
   )
