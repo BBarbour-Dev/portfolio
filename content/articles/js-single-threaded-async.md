@@ -41,7 +41,7 @@ Feels odd, right? Well, let's break this down line by line:
 
 `console.log("first")` is on the stack first, so it gets printed. Next, the engine notices setTimeout, which isn't handled by Javascript and pushes it off to the WebAPI to be done asynchronously. The call stack moves on without caring about the code handed off to the Web APIs and `console.log("three")` is printed.
 
-Next, the Javascript engine's event loop kicks in, like a little kid asking "Are we there yet?" on a road trip. It starts firing, waiting for events to be pushed into it. Since the `setTimeout` isn't finished, it returns `undefined` like a parent saying "No". When it finally does hits we get `console.log("second")` printed.
+Next, the Javascript engine's event loop kicks in, like a little kid asking "Are we there yet?" on a road trip. It starts firing, waiting for events to be pushed into it. Since the `setTimeout` isn't finished, it returns `undefined`, as the default, well because it hasn't been given the value yet. Once the callback finally does hits we get `console.log("second")` printed.
 
 There's a really good site that slows this all down and shows this happening.
 
