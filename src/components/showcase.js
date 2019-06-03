@@ -9,7 +9,7 @@ const Showcase = ({ projects }) => {
       <h1>Project Showcase</h1>
       <div className="project-row">
         {projects.map((project, index) => {
-          if (project.type === 'major') {
+          if (project.favorite === true) {
             return <ProjectCard project={project} key={index} />
           }
           return null
