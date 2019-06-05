@@ -46,7 +46,7 @@ const Header = ({ siteTitle }) => {
             Projects
           </Link>
           <a
-            href="https://drive.google.com/file/d/1HwarQMbQI1TEfxcrPOPQfwBNvtrJnsJw/view"
+            href="https://drive.google.com/file/d/1fCFhhvYgOxxM7FjSpBX1F48tVDht8bF4/view"
             className="nav-link"
             target="_blank"
             rel="noopener noreferrer"
