@@ -2,7 +2,7 @@
 title: 'If Javascript Is Single Threaded, How Is It Asynchronous?'
 date: 2019-06-03
 type: article
-orignalURL: https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd/edit
+orignalURL: https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd
 description: You have to take a look under the hood to understand why.
 ---
 
