@@ -1,5 +1,5 @@
 title: "<h1>Hello, <br /> I'm Brian</h1>"
-subtitle: 'A self-taught Front End Developer who loves building swift and responsive modern web apps.'
+subtitle: 'A Front End Developer who loves building swift and responsive modern web apps.'
 projects:
   - {
       name: 'Grocery Getter',
@@ -23,7 +23,7 @@ projects:
     }
   - {
       name: 'Saga of the Old Gods',
-      description: "A site I built for my sister's webcomic using Gatsby JS and Netlify CMS.",
+      description: 'A site for a webcomic built using React, Gatsby, and Netlify CMS.',
       image: 'sotog.png',
       type: 'major',
       date: 2019-05-12,
@@ -33,7 +33,7 @@ projects:
     }
   - {
       name: 'Dad Joke Machine',
-      description: 'Fetches jokes from the Dad Joke API, displays them, and lets you tweet them out. Built for the freeCodeCamp Front End Libraries certification.',
+      description: 'Create-React-App site. Fetches jokes from the Dad Joke API, displays them, and lets you tweet them out. Built for the freeCodeCamp Front End Libraries certification.',
       image: 'dadjokemachine.png',
       type: 'minor',
       date: 2019-05-21,
@@ -43,7 +43,7 @@ projects:
     }
   - {
       name: 'Markdown Previewer',
-      description: 'Parses over user inputed Markdown flavored text and displays a preview of it. Built for the freeCodeCamp Front End Libraries certification.',
+      description: 'Create-React-App site. Parses over user inputed Markdown flavored text and displays a preview of it. Built for the freeCodeCamp Front End Libraries certification.',
       image: 'markdownpreviewer.png',
       type: 'minor',
       date: 2019-05-22,
@@ -53,7 +53,7 @@ projects:
     }
   - {
       name: 'Drum Machine',
-      description: 'Lets you play drums using your keyboard our mouse clicks. Built for the freeCodeCamp Front End Libaries certification.',
+      description: 'Create-React-App site. Lets you play drums using your keyboard our mouse clicks. Built for the freeCodeCamp Front End Libaries certification.',
       image: 'drum-machine.png',
       type: 'minor',
       date: 2019-05-23,
@@ -63,7 +63,7 @@ projects:
     }
   - {
       name: 'JS Calculator',
-      description: 'A very basic calcuator that uses Javascript. Built for the freeCodeCamp Front End Libaries certification',
+      description: 'Create-React-App site. A very basic calcuator that uses Javascript. Built for the freeCodeCamp Front End Libaries certification',
       image: 'calculator.png',
       type: 'minor',
       date: 2019-05-24,
@@ -73,7 +73,7 @@ projects:
     }
   - {
       name: 'Pomodoro Clock',
-      description: 'A Pomodoro timer clock built to help you pace your work and breaks. Built for the freeCodeCamp Front End Libaries certification',
+      description: 'Create-React-App site. A Pomodoro timer clock built to help you pace your work and breaks. Built for the freeCodeCamp Front End Libaries certification',
       image: 'pomodoro.png',
       type: 'minor',
       date: 2019-05-25,
@@ -83,7 +83,7 @@ projects:
     }
   - {
       name: 'Boredom Smasher',
-      description: 'My first Vue.js web app. Brainstorm ideas to break through tedium and boredom.',
+      description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom.',
       image: 'boredom.png',
       type: 'minor',
       date: 2016-06-03,
