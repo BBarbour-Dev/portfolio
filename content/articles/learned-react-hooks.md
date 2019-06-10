@@ -2,7 +2,7 @@
 title: 'How I Learned React Hooks'
 date: 2019-04-15
 type: article
-orignalURL: https://dev.to/steelvoltage/how-i-learned-react-hooks-3pc8/edit
+orignalURL: https://dev.to/steelvoltage/how-i-learned-react-hooks-3pc8
 description: As someone new to JS and React, here's how I learned Hooks.
 ---
 
