@@ -28,7 +28,7 @@ const Contact = () => {
       <div className="contact-row">
         <h2 className="contact-h2">Contact Brian</h2>
         <div className="link-icons">
-          <a href="mailto:steelvoltage@gmail.com">
+          <a href="mailto:brian@bbarbour.dev">
             <FaEnvelope />
           </a>
           <a
