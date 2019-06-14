@@ -6,8 +6,6 @@ orignalURL: https://dev.to/steelvoltage/array-filter-is-awesome-2k7
 description: A super quick overview of what hoisting is.
 ---
 
-Before reading this, check out: [Var and Function Scope](https://dev.to/steelvoltage/var-and-function-scope-in-javascript-3k4p)
-
 ```javascript
 console.log(hoistAndRun()) // returns 'also hoisted and can be ran'
 console.log(hoistMe) // returns undefined
