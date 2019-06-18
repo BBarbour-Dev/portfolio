@@ -98,7 +98,7 @@ projects:
       image: 'boredom.png',
       type: 'minor',
       date: 2016-06-03,
-      favorite: true,
+      favorite: false,
       github: 'https://github.com/steelvoltage/boredom-smasher',
       live: 'https://boredom-smasher.netlify.com/',
     }
