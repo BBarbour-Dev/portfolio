@@ -2,16 +2,6 @@ title: "<h1>Hello, <br /> I'm Brian</h1>"
 subtitle: 'A Front End Developer who loves building swift and responsive modern web apps.'
 projects:
   - {
-      name: 'Grocery Getter',
-      description: 'My first ever React app built from scratch. Uses localstorage for CRUD operations and data storage.',
-      image: 'grocerygetter.png',
-      type: 'minor',
-      date: 2019-04-16,
-      favorite: false,
-      github: 'https://github.com/steelvoltage/grocerygetter',
-      live: 'https://steelvoltage.github.io/grocerygetter/',
-    }
-  - {
       name: 'The Black Hack: Beyond',
       description: 'A tabletop RPG character sheet site I created using React and Firebase for a backend.',
       image: 'tbhbeyond.png',
@@ -30,6 +20,27 @@ projects:
       favorite: true,
       github: 'https://github.com/steelvoltage/sotog',
       live: 'https://sagaoftheoldgods.com',
+    }
+  - {
+      name: 'Dinner Hunt',
+      description: 'Taps into the Edamam api. Uses React and Styled Components.',
+      image: 'dinnerhunt.png',
+      type: 'major',
+      date: 2019-06-16,
+      favorite: true,
+      github: 'https://github.com/steelvoltage/sotog',
+      live: 'https://sagaoftheoldgods.com',
+    }
+
+  - {
+      name: 'Boredom Smasher',
+      description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom.',
+      image: 'boredom.png',
+      type: 'minor',
+      date: 2016-06-03,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/boredom-smasher',
+      live: 'https://boredom-smasher.netlify.com/',
     }
   - {
       name: 'Dad Joke Machine',
@@ -90,4 +101,14 @@ projects:
       favorite: true,
       github: 'https://github.com/steelvoltage/boredom-smasher',
       live: 'https://boredom-smasher.netlify.com/',
+    }
+  - {
+      name: 'Grocery Getter',
+      description: 'My first ever React app built from scratch. Uses localstorage for CRUD operations and data storage.',
+      image: 'grocerygetter.png',
+      type: 'minor',
+      date: 2019-04-16,
+      favorite: false,
+      github: 'https://github.com/steelvoltage/grocerygetter',
+      live: 'https://steelvoltage.github.io/grocerygetter/',
     }
