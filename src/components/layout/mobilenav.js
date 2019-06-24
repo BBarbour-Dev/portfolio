@@ -111,7 +111,7 @@ const NavStyle = styled.nav`
       a:hover {
         color: var(--secondary);
       }
-    }
+    }dd
   }
 
   .opened {
