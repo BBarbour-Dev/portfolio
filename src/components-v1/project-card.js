@@ -20,7 +20,6 @@ const ProjectCard = ({ project, all }) => {
         >
           Website <FaDesktop style={{ position: 'relative', top: '2px' }} />
         </a>
-
         <a
           href={project.github}
           target="_blank"

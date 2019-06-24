@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Oswald|Raleway&display=swap');
+
+:root {
+  --primary: #394d8f;
+  --primary-dark: #26335f;
+  --primary-shadow: #394d8fc9;
+  --secondary: #ffd930;
+  --secondary-shadow: #ffd930d7;
+  --dark: #575757;
+  --light: #fafafa;
+  --dull: #e8e8e8d0;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--light);
+  font-family: var(--primary-font);
+  color: var(--dark);
+  font-weight: 400;
+  box-sizing: border-box;
+}

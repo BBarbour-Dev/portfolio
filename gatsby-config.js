@@ -47,6 +47,7 @@ module.exports = {
         quality: 100,
         tracedSVG: true
       }
-    }
+    },
+    'gatsby-plugin-styled-components'
   ]
 }

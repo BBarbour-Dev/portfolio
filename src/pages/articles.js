@@ -1,15 +1,11 @@
 import React from 'react'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-
-import AllArticles from '../components/all-articles'
+import Layout from '../components/layout/layout'
 
 const ArticlesPage = () => {
   return (
     <Layout>
-      <SEO title="Articles" />
-      <AllArticles />
+      <h1>Articles</h1>
     </Layout>
   )
 }

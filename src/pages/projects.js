@@ -1,14 +1,11 @@
 import React from 'react'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import AllProjects from '../components/all-projects'
+import Layout from '../components/layout/layout'
 
 const ProjectsPage = () => {
   return (
     <Layout>
-      <SEO title="Projects" />
-      <AllProjects />
+      <h1>Projects</h1>
     </Layout>
   )
 }
