@@ -1,10 +1,16 @@
 import React from 'react'
 
+import Layout from '../components/layout/layout'
+import SEO from '../components/seo'
+
 const NotFoundPage = () => (
-  <section className="section">
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </section>
+  <Layout>
+    <SEO title="404: Not found" />
+    <section>
+      <h1>Not all who wander are lost</h1>
+      <p>404: Not found. Try a different route. 😅</p>
+    </section>
+  </Layout>
 )
 
 export default NotFoundPage

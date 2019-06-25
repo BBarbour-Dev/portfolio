@@ -7,6 +7,7 @@
   --primary-shadow: #394d8fc9;
   --secondary: #ffd930;
   --secondary-shadow: #ffd930d7;
+  --secondary-dark: #c9ab25;
   --dark: #575757;
   --light: #fafafa;
   --dull: #e8e8e8d0;
@@ -32,4 +33,17 @@ body {
   color: var(--dark);
   font-weight: 400;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  letter-spacing: 0.2rem;
+  color: var(--primary);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.6rem;
 }
