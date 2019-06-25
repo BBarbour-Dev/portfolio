@@ -28,8 +28,8 @@ projects:
       type: 'major',
       date: 2019-06-16,
       favorite: true,
-      github: 'https://github.com/steelvoltage/sotog',
-      live: 'https://sagaoftheoldgods.com',
+      github: 'https://github.com/steelvoltage/dinner-hunt',
+      live: 'https://dinnerhunt.netlify.com',
     }
 
   - {
