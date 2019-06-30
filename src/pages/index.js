@@ -1,35 +1,20 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
 import Layout from '../components/layout/layout'
 import SEO from '../components/seo'
+import MobileHeader from '../components/landing/mobileheader'
+import Showcase from '../components/landing/showcase'
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Index</h1>
+      <MobileHeader />
+      <div className="content-wrapper">
+        <Showcase />
+      </div>
     </Layout>
   )
 }
-
-export const query = graphql`
-  {
-    info {
-      title
-      subtitle
-      projects {
-        name
-        description
-        image
-        type
-        date
-        favorite
-        github
-        live
-      }
-    }
-  }
-`
 
 export default IndexPage

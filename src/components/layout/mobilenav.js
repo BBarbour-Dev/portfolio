@@ -10,14 +10,6 @@ const MobileNav = () => {
   const showLinks = navOpen ? 'opened' : ''
   return (
     <NavStyle>
-      <div className="menu-toggle">
-        <button
-          className="menu-togghamburger"
-          onClick={() => setNavOpen(!navOpen)}
-        >
-          {navOpen ? <FaTimes /> : <FaBars />}
-        </button>
-      </div>
       <div className={`menu-links ${showLinks}`}>
         <ul>
           <li>
@@ -27,7 +19,7 @@ const MobileNav = () => {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/articles">Articles</Link>{' '}
+            <Link to="/articles">Articles</Link>
           </li>
           <li>
             <a
@@ -41,58 +33,55 @@ const MobileNav = () => {
           </li>
         </ul>
       </div>
+      <div className="menu-toggle">
+        <button
+          className="menu-togghamburger"
+          onClick={() => setNavOpen(!navOpen)}
+        >
+          {navOpen ? <FaTimes /> : <FaBars />}
+        </button>
+      </div>
     </NavStyle>
   )
 }
 
 const NavStyle = styled.nav`
   color: var(--light);
-  position: relative;
-
-  @media (min-width: 700px) {
-    display: none;
-  }
+  background: var(--primary);
+  padding: 0 2rem;
 
   .menu-toggle {
     background-color: var(--primary);
-    height: 5rem;
+    min-height: 8vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     button {
       color: inherit;
       background-color: inherit;
       border: none;
-      font-size: 2rem;
-      margin: 1rem;
+      font-size: 2.5rem;
     }
 
     button:hover {
       color: var(--secondary);
     }
-
-    button:focus {
-      outline: none;
-    }
   }
 
   .menu-links {
-    position: absolute;
     width: 100%;
     background-color: var(--primary);
     text-align: center;
-    font-size: 1.8rem;
-    font-family: var(--secondary-font);
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 400;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    opacity: 0;
     height: 0;
-    transition: height 0.75s ease;
-    z-index: 1;
-    box-shadow: 0 0.2rem 0.2rem var(--primary-shadow);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
 
     ul {
       li {
@@ -111,12 +100,18 @@ const NavStyle = styled.nav`
       a:hover {
         color: var(--secondary);
       }
-    }dd
+    }
   }
 
   .opened {
     height: 12.8rem;
     opacity: 1;
+    visibility: visible;
+    padding: 2rem 0;
+  }
+
+  @media (min-width: 1000px) {
+    display: none;
   }
 `
 

@@ -79,13 +79,8 @@ const MobileFooter = () => {
 }
 
 const FooterStyle = styled.footer`
-  @media (min-width: 700px) {
-    display: none;
-  }
-
-  position: absolute;
+  margin-top: auto;
   width: 100%;
-  bottom: 0;
   border-top: 1px solid var(--dull);
   padding: 1rem;
 
@@ -98,20 +93,11 @@ const FooterStyle = styled.footer`
   .copy {
     font-size: 1rem;
     text-align: left;
-
-    a {
-      text-decoration: none;
-      color: var(--primary);
-    }
-
-    a:hover {
-      color: var(--secondary-dark);
-    }
   }
 
   .avatar {
     img {
-      border-radius: 50%;
+      border-radius: 0.5rem;
     }
   }
 
@@ -122,16 +108,20 @@ const FooterStyle = styled.footer`
 
     a {
       text-decoration: none;
+      color: var(--dark);
+    }
+
+    a:hover {
       color: var(--primary);
+    }
+
+    a:not(:last-child) {
+      margin-right: 0.5rem;
     }
   }
 
-  a:hover {
-    color: var(--secondary-dark);
-  }
-
-  a:not(:last-child) {
-    margin-right: 0.5rem;
+  @media (min-width: 1000px) {
+    display: none;
   }
 `
 

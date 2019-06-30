@@ -16,12 +16,9 @@ const Layout = ({ children }) => {
 }
 
 const Container = styled.div`
-  position: relative;
+  display: flex;
   min-height: 100vh;
-
-  main {
-    padding: 1rem;
-  }
+  flex-direction: column;
 `
 
 export default Layout
