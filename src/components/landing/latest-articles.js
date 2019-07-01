@@ -29,7 +29,6 @@ const LatestArticles = () => {
     }
   `)
   const articles = data.allDevArticles.edges
-  console.log(articles)
   return (
     <LatestStyle>
       <h1>Latest Articles</h1>
