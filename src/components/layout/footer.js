@@ -81,13 +81,14 @@ const MobileFooter = () => {
 const FooterStyle = styled.footer`
   margin-top: auto;
   width: 100%;
-  border-top: 1px solid var(--dull);
-  padding: 1rem;
+  padding: 0 2rem;
 
   .top-row {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-top: 1px solid var(--dull);
   }
 
   .copy {
@@ -105,6 +106,7 @@ const FooterStyle = styled.footer`
     display: flex;
     justify-content: flex-end;
     font-size: 3rem;
+    padding: 0rem 1rem 2rem 1rem;
 
     a {
       text-decoration: none;
@@ -120,9 +122,9 @@ const FooterStyle = styled.footer`
     }
   }
 
-  @media (min-width: 1000px) {
+  /* @media (min-width: 1000px) {
     display: none;
-  }
+  } */
 `
 
 export default MobileFooter

@@ -45,14 +45,14 @@ h1 {
 h2 {
   font-family: var(--secondary-font);
   color: var(--primary);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
@@ -71,4 +71,8 @@ a:hover {
 
 .content-wrapper {
   padding: 0 2rem;
+}
+
+.content-wrapper section:not(:last-child) {
+  border-bottom: 1px solid var(--dull);
 }

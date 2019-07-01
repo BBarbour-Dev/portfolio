@@ -1,16 +1,15 @@
 import React from 'react'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
 import Article from '../articles/article'
 
-const LatestArticles = () => {
+const AllArticles = () => {
   const data = useStaticQuery(graphql`
     {
       allDevArticles(
         filter: { article: { tags: { ne: "help" } } }
         sort: { fields: [article___published_timestamp], order: DESC }
-        limit: 3
       ) {
         edges {
           node {
@@ -29,24 +28,20 @@ const LatestArticles = () => {
     }
   `)
   const articles = data.allDevArticles.edges
-  console.log(articles)
   return (
-    <LatestStyle>
-      <h1>Latest Articles</h1>
+    <ArticlesStyle>
+      <h1>All Articles</h1>
       <div className="article-list">
         {articles.map(article => {
           return <Article article={article} key={article.node.article.id} />
         })}
       </div>
-      <div className="more">
-        <Link to="/articles">More Articles →</Link>
-      </div>
-    </LatestStyle>
+    </ArticlesStyle>
   )
 }
 
-const LatestStyle = styled.section`
-  margin: 2rem 0;
+const ArticlesStyle = styled.section`
+  margin: 2rem 0 4rem 0;
 
   h1 {
     margin: 2rem 0 4rem 0;
@@ -57,16 +52,6 @@ const LatestStyle = styled.section`
       margin-bottom: 2rem;
     }
   }
-
-  .more {
-    width: 100%;
-    font-family: var(--secondary-font);
-    color: var(--primary);
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 4rem;
-    text-align: right;
-  }
 `
 
-export default LatestArticles
+export default AllArticles

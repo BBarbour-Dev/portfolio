@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import ProjectCard from '../projectcard/projectcard'
+import ProjectCard from '../projects/projectcard'
 
 const Showcase = () => {
   const data = useStaticQuery(graphql`
@@ -42,10 +42,10 @@ const Showcase = () => {
 }
 
 const ShowcaseStyle = styled.section`
-  margin-bottom: 2rem;
+  margin-bottom: 2rem 0;
 
   h1 {
-    margin: 2rem 0;
+    margin: 2rem 0 4rem 0;
   }
 
   .more {
@@ -54,7 +54,7 @@ const ShowcaseStyle = styled.section`
     color: var(--primary);
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-align: right;
   }
 

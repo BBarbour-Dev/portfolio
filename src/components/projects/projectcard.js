@@ -2,24 +2,24 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { FaDesktop, FaGithub } from 'react-icons/fa'
-
 import ProjectCardImage from './project-card-image'
 
 const ProjectCard = ({ project }) => {
+  const { image, name, description, live, github } = project
   return (
     <ProjectCardStyle>
       <div className="image">
-        <ProjectCardImage path={project.image} alt={project.name} />
+        <ProjectCardImage path={image} alt={name} />
       </div>
       <div className="project">
-        <h3>{project.name}</h3>
-        <p>{project.description}</p>
+        <h3>{name}</h3>
+        <p>{description}</p>
       </div>
       <div className="links">
-        <a href={project.live} target="_blank" rel="noopener noreferrer">
+        <a href={live} target="_blank" rel="noopener noreferrer">
           <FaDesktop style={{ position: 'relative', top: '2px' }} /> Website
         </a>
-        <a href={project.github} target="_blank" rel="noopener noreferrer">
+        <a href={github} target="_blank" rel="noopener noreferrer">
           <FaGithub style={{ position: 'relative', top: '2px' }} /> Github
         </a>
       </div>
@@ -35,7 +35,6 @@ const ProjectCardStyle = styled.article`
 
   .project {
     h3 {
-      text-align: center;
       padding: 0.5rem;
     }
 
