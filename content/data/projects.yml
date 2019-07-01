@@ -33,7 +33,7 @@
     description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom.',
     image: 'boredom.png',
     type: 'minor',
-    date: 2016-06-03,
+    date: 2019-06-03,
     favorite: false,
     github: 'https://github.com/steelvoltage/boredom-smasher',
     live: 'https://boredom-smasher.netlify.com/',
@@ -87,16 +87,6 @@
     favorite: false,
     github: 'https://github.com/steelvoltage/pomodoro-clock',
     live: 'https://steelvoltage.github.io/pomodoro-clock/',
-  }
-- {
-    name: 'Boredom Smasher',
-    description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom.',
-    image: 'boredom.png',
-    type: 'minor',
-    date: 2016-06-03,
-    favorite: false,
-    github: 'https://github.com/steelvoltage/boredom-smasher',
-    live: 'https://boredom-smasher.netlify.com/',
   }
 - {
     name: 'Grocery Getter',
