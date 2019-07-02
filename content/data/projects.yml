@@ -1,6 +1,6 @@
 - {
     name: 'The Black Hack: Beyond',
-    description: 'A tabletop RPG character sheet site I created using React and Firebase for a backend.',
+    description: "A fullstack web app built on client-side React with Firebase auth and Firestore real-time-database. Let's user create, update, and share tabletop character RPG character shets.",
     image: 'tbhbeyond.png',
     type: 'major',
     date: 2019-05-01,
@@ -10,7 +10,7 @@
   }
 - {
     name: 'Saga of the Old Gods',
-    description: 'A site for a webcomic built using React, Gatsby, and Netlify CMS.',
+    description: 'A site built for a local artist and her webcomic. Uses Netlify CMS as a backend which Gatsby taps into and displays in React. Had to build a custom viewer for comic pages that works on both mobile and desktop.',
     image: 'sotog.png',
     type: 'major',
     date: 2019-05-12,
@@ -20,7 +20,7 @@
   }
 - {
     name: 'Dinner Hunt',
-    description: 'Taps into the Edamam api. Uses React and Styled Components.',
+    description: 'This React app tapps into the Edaman API to run queries and displays recipies in a mobile friendly grid. Site was built using mobile-first design.',
     image: 'dinnerhunt.png',
     type: 'major',
     date: 2019-06-16,
@@ -30,7 +30,7 @@
   }
 - {
     name: 'Boredom Smasher',
-    description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom.',
+    description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom. Was created to learn Vue.js and uses custom functionality I wrote to randomly grab and display activities.',
     image: 'boredom.png',
     type: 'minor',
     date: 2019-06-03,
@@ -90,7 +90,7 @@
   }
 - {
     name: 'Grocery Getter',
-    description: 'My first ever React app built from scratch. Uses localstorage for CRUD operations and data storage.',
+    description: 'My first ever React app built from scratch. Uses localstorage for CRUD operations and data storage. Will always have a special place in my heart, as it was where I first realized that I could build web apps .',
     image: 'grocerygetter.png',
     type: 'minor',
     date: 2019-04-16,

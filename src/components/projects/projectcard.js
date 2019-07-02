@@ -29,9 +29,12 @@ const ProjectCard = ({ project }) => {
 
 const ProjectCardStyle = styled.article`
   max-width: 300px;
+  min-height: 32rem;
   border: 2px solid var(--dull);
   box-shadow: 0 0.2rem 0.4rem #57575773;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
 
   .project {
     h3 {
@@ -39,7 +42,6 @@ const ProjectCardStyle = styled.article`
     }
 
     p {
-      text-align: justified;
       padding: 0.5rem;
     }
   }
@@ -50,6 +52,7 @@ const ProjectCardStyle = styled.article`
     padding: 1rem;
     border-top: 2px solid var(--dull);
     text-align: center;
+    margin-top: auto;
 
     a {
       flex-basis: 50%;

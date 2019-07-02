@@ -8,7 +8,12 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <section>
       <h1>Not all who wander are lost</h1>
-      <p>404: Not found. Try a different route. 😅</p>
+      <p>
+        404: Not found. Try a different route.{' '}
+        <span role="img" aria-label="sweat drop emoji">
+          😅
+        </span>
+      </p>
     </section>
   </Layout>
 )
