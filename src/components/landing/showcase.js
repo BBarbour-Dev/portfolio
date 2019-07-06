@@ -54,7 +54,7 @@ const ShowcaseStyle = styled.section`
     color: var(--primary);
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 4rem;
+    margin: 4rem 0;
     text-align: right;
   }
 
