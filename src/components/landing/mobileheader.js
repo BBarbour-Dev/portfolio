@@ -24,10 +24,7 @@ const MobileHeader = () => {
         Hello,
         <br /> I'm Brian
       </h1>
-      <h2>
-        A Fullstack Developer who loves building swift and responsive modern web
-        apps.
-      </h2>
+      <h2>A Fullstack Software Engineer and Javascript enthusiast.</h2>
     </HeaderStyle>
   )
 }

@@ -18,7 +18,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1fCFhhvYgOxxM7FjSpBX1F48tVDht8bF4/view"
+              href="https://drive.google.com/file/d/1Du9G004bYDGjPfEDXJ8U2tT1_VTQ9t-n/view"
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"

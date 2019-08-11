@@ -1,6 +1,6 @@
 - {
     name: 'The Black Hack: Beyond',
-    description: "A fullstack web app built on client-side React with Firebase auth and Firestore real-time-database. Let's user create, update, and share tabletop character RPG character shets.",
+    description: 'A fullstack web app built on client-side React with Firebase auth and Firestore real-time-database. Lets users create, update, and share tabletop character RPG character sheets.',
     image: 'tbhbeyond.png',
     type: 'major',
     date: 2019-05-01,
@@ -20,7 +20,7 @@
   }
 - {
     name: 'Dinner Hunt',
-    description: 'This React app tapps into the Edaman API to run queries and displays recipies in a mobile friendly grid. Site was built using mobile-first design.',
+    description: 'A React app that taps into the Edamam API to run queries and displays recipes in a friendly grid. Site was built using mobile-first design philosophy.',
     image: 'dinnerhunt.png',
     type: 'major',
     date: 2019-06-16,
