@@ -29,6 +29,16 @@
     live: 'https://dinnerhunt.netlify.com',
   }
 - {
+    name: 'vue-express-auth0',
+    description: 'An Node/Express boilerplate app that serves up a Vue.js app. Authentication and authorization are handled through Auth0. Hosted up on Heroku.',
+    image: 'vue-express-auth0.png',
+    type: 'major',
+    date: 2019-10-04,
+    favorite: true,
+    github: 'https://github.com/steelvoltage/vue-express-auth0',
+    live: 'https://vue-express-auth0.herokuapp.com/',
+  }
+- {
     name: 'Boredom Smasher',
     description: 'Simple Vue.js web to help you brainstorm ideas to break through tedium and boredom. Was created to learn Vue.js and uses custom functionality I wrote to randomly grab and display activities.',
     image: 'boredom.png',
