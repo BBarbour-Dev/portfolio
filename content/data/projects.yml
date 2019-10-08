@@ -30,7 +30,7 @@
   }
 - {
     name: 'vue-express-auth0',
-    description: 'An Node/Express boilerplate app that serves up a Vue.js app. Authentication and authorization are handled through Auth0. Hosted up on Heroku.',
+    description: 'A simple Node/Express boilerplate app that serves up a Vue.js app. Created for me to bootstrap other projects in the future. Client side authentication and authorization are handled through Auth0, as well as server side API route protection. Hosted up on Heroku.',
     image: 'vue-express-auth0.png',
     type: 'major',
     date: 2019-10-04,
