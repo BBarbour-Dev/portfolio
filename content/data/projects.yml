@@ -14,7 +14,7 @@
     image: 'tbhbeyond.png',
     type: 'major',
     date: 2019-05-01,
-    favorite: false,
+    favorite: true,
     github: 'https://github.com/steelvoltage/tbhbeyond',
     live: 'https://tbhbeyond.com/',
   }
@@ -94,7 +94,7 @@
     image: 'vue-express-auth0.png',
     type: 'major',
     date: 2019-10-04,
-    favorite: true,
+    favorite: false,
     github: 'https://github.com/steelvoltage/vue-express-auth0',
     live: 'https://vue-express-auth0.herokuapp.com/',
   }
