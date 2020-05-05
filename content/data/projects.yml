@@ -16,7 +16,7 @@
     date: 2019-05-01,
     favorite: true,
     github: 'https://github.com/steelvoltage/tbhbeyond',
-    live: 'https://tbhbeyond.com/',
+    live: 'https://tbhbeyond.netlify.app',
   }
 - {
     name: 'Dad Joke Machine',
